@@ -53,6 +53,8 @@ zuul:
         refresh-interval: 3
   
 security:
+  validate:
+    code: false
   login:
     url: /auth/oauth/token
   sessions: stateless
